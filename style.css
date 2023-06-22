@@ -1,0 +1,54 @@
+.container{
+    background-image: url("/Imagenes/bolas.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: cover;
+    width:80%;
+}
+ul{
+    padding:15px;
+    border:1px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 100px;
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 1000;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    padding: 15px;
+    transition: 0.5 ease;
+}
+ul:hover{
+    border:1px solid #f46b30;
+
+}
+ul:hover li a {
+    color:#f46b30;
+   
+}
+ul:hover li a:not(:hover){
+    color:white;
+    opacity:0.3;
+}    
+   
+.logo{
+    margin: auto;
+    padding: 500px 200px;
+    text-align: left;
+}
+.flex-wrap{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-self: flex-end;
+}
+.col-12{
+    color:yellow
+}

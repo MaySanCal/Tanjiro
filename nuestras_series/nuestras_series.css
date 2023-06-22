@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Shantell+Sans:ital,wght@0,300;1,300&display=swap');
+
+
+.container{
+    background-color: black;
+}
+
+ul{
+    padding:15px;
+    border:1px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 100px;
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 1000;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    padding: 15px;
+    transition: 0.5 ease;
+}
+ul:hover{
+    border:1px solid #f46b30;
+
+}
+ul:hover li a {
+    color:#f46b30;
+   
+}
+ul:hover li a:not(:hover){
+    color:white;
+    opacity:0.3;
+} 
+.col-12{
+    color:yellow
+}
+   
+.titulo{
+    margin-top:90px;
+    text-align: center;
+
+}
+.card-body{
+    background-color:yellow;
+
+}
+.flex-wrap{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-self: flex-end;
+}
+
+
+   
+
+
